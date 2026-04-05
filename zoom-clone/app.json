@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "Confero",
+    "slug": "confero",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/facIcon.png",
+    "scheme": "confero",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0a0a0f"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.confero.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#0a0a0f"
+      },
+      "package": "com.confero.app"
+    },
+    "web": {
+      "favicon": "./assets/images/facIcon.png",
+      "bundler": "metro"
+    }
+  }
+}
